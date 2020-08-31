@@ -20,19 +20,9 @@ h3 {
   height: 210px;
   border: 5px solid rgb(201, 238, 245);
   margin: auto;
-  padding: 47px;
+  padding: 45px;
   background-color: rgb(231, 250, 253);
   color: #424242;
-}
-
-span {
-  font-size: 30px;
-  padding: 0px;
-  position: relative;
-  bottom: 170px;
-  left: 270px;
-  color: #424242;
-  font-weight: bold;
 }
 
 .weather-app {
@@ -41,7 +31,7 @@ span {
   margin: 10px auto;
   width: 520px;
   border-radius: 10px;
-  max-height: 770px;
+  max-height: 760px;
   background: linear-gradient(#81ccdf, #dcf3fd);
 }
 
@@ -113,4 +103,7 @@ small {
 .units {
   position: relative;
   bottom: 200px;
+  left: 330px;
+  font-size: 25px;
+  font-weight: bold;
 }
