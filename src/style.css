@@ -34,7 +34,9 @@ h3 {
   max-height: 760px;
   background: linear-gradient(#81ccdf, #dcf3fd);
 }
-
+.container {
+  margin: 10px auto;
+}
 .row {
   margin: -20px 0px 0px 30px;
 }
@@ -97,7 +99,7 @@ ul {
 }
 small {
   position: relative;
-  bottom: 175px;
+  bottom: 165px;
   font-size: 20px;
 }
 .units {
@@ -108,13 +110,6 @@ small {
   font-weight: bold;
   color: rgb(33, 33, 33);
 }
-.weather-temperature strong {
-  color: rgb(33, 33, 33);
-  font-size: 64px;
-  line-height: 1;
-  font-weight: 400;
-}
-
 .active {
   color: rgb(33, 33, 33);
   cursor: default;
