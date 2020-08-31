@@ -33,7 +33,10 @@ function displayTemperature(response) {
   let feelLikeElement = document.querySelector("#icon");
   let currentLocationButton = document.querySelector("#currentCity");
   currentLocationButton.addEventListener("click", getCurrentLocation);
+  let dateElement = document.querySelector("h2");
+  let currentTime = new Date();
 
+  dateElement.innerHTML = formatDate(currentTime);
   celsiusTemperature = response.data.main.temp;
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
   cityElement.innerHTML = response.data.name;
