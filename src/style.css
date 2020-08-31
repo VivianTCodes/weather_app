@@ -101,3 +101,7 @@ ul {
   font-weight: bold;
   color: #424242;
 }
+small {
+  position: relative;
+  bottom: 180px;
+}
