@@ -8,5 +8,108 @@
   </head>
   <body>
     <script src="script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <div class="container">
+      <div class="weather-app">
+        <h1 id="city">London</h1>
+
+        <h2>Tuesday 18th 2020</h2>
+
+        <h3 id="temperature">19</h3>
+        <span id="unit">°C </span>
+
+        <form class="search-form" id="search-form">
+          <div class="row">
+            <div class="col-8">
+              <input
+                type="search"
+                placeholder="Enter a city.."
+                autofocus="on"
+                autocomplete="off"
+                id="city-input"
+                class="form-control shadow-sm"
+              />
+            </div>
+            <div class="col-4">
+              <input
+                type="submit"
+                value="Search"
+                class="form-control btn btn-primary shadow-sm"
+              />
+            </div>
+
+            <div class="col-4" id="current">
+              <input
+                id="currentCity"
+                type="submit"
+                value="Current📍"
+                class="form-control btn btn-success shadow-sm"
+              />
+            </div>
+          </div>
+        </form>
+
+        <img
+          src="https://icons-for-free.com/iconfiles/png/512/snow+snowy+weather+icon-1320196493288802350.png"
+          alt="icon"
+        />
+
+        <div class="card">
+          <ul>
+            <li id="wind">Wind: 40mph</li>
+            <li id="description">Precipitation: 1mm</li>
+            <li id="feelsLike">Feels like: 30°C</li>
+            <li id="humidity">Humidity: 30%</li>
+          </ul>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            Wed
+            <br />
+            ☀️
+            <br />
+            19°C
+          </div>
+
+          <div class="col">
+            Thurs
+            <br />
+            ☀️
+            <br />
+            19°C
+          </div>
+
+          <div class="col">
+            Fri
+            <br />
+            🌤️
+            <br />
+            22°C
+          </div>
+
+          <div class="col">
+            Sat
+            <br />
+            ⛈️
+            <br />
+            20°C
+          </div>
+
+          <div class="col">
+            Sun
+            <br />
+            ⛈️
+            <br />
+            22°C
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
