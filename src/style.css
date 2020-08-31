@@ -106,4 +106,16 @@ small {
   left: 330px;
   font-size: 25px;
   font-weight: bold;
+  color: rgb(33, 33, 33);
+}
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.active {
+  color: rgb(33, 33, 33);
+  cursor: default;
 }
