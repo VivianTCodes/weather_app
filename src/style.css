@@ -41,7 +41,7 @@ span {
   margin: 10px auto;
   width: 520px;
   border-radius: 10px;
-  max-height: 800px;
+  max-height: 770px;
   background: linear-gradient(#81ccdf, #dcf3fd);
 }
 
@@ -60,24 +60,28 @@ span {
   bottom: 80px;
 }
 
-img {
+#icon {
   display: block;
-  max-width: 250px;
+  position: relative;
+  left: 5px;
+  width: 230px;
+  height: 230px;
   margin: -45px 50px 20px 225px;
   padding: 0px;
   opacity: 80%;
+  image-resolution: ;
 }
 
 .card {
   display: block;
   position: relative;
-  bottom: 240px;
-  right: -30px;
+  bottom: 230px;
+  right: -40px;
   padding: 0px;
   margin: 0px;
-  max-width: 215px;
-  height: 215px;
-  border-radius: 215px;
+  max-width: 200px;
+  height: 200px;
+  border-radius: 200px;
   color: #424242;
   background-color: rgb(231, 250, 253);
   border: 5px solid rgb(201, 238, 245);
@@ -86,14 +90,14 @@ img {
 ul {
   list-style: none;
   text-align: center;
-  margin: 50px 0px 0px 0px;
-  padding-left: 2px;
+  margin: 40px 0px 0px 0px;
+  padding-left: 5px;
   font-size: 18px;
 }
 
 .col {
   position: relative;
-  bottom: 210px;
+  bottom: 200px;
   right: 17px;
   margin: auto 0;
   font-size: 24px;
