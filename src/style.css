@@ -31,12 +31,10 @@ h3 {
   margin: 10px auto 0px;
   width: 520px;
   border-radius: 10px;
-  max-height: 760px;
+  max-height: 680px;
   background: linear-gradient(#81ccdf, #dcf3fd);
 }
-.container {
-  margin: 10px auto;
-}
+
 .row {
   margin: -20px 0px 0px 30px;
 }
